@@ -1,0 +1,14 @@
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bf16=False, bpe=None, checkpoint_shard_count=1, checkpoint_suffix='', cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='./data-bin/enta', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer=None, padding_factor=8, profile=False, quantization_config_path=None, scoring='bleu', seed=1, source_lang='en', srcdict=None, target_lang='ta', task='translation', tensorboard_logdir=None, testpref='./dataset/test', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='./dataset/train', user_dir=None, validpref='./dataset/val', workers=1)
+[en] Dictionary: 25880 types
+[en] ./dataset/train.en: 36350 sents, 759509 tokens, 0.0% replaced by <unk>
+[en] Dictionary: 25880 types
+[en] ./dataset/val.en: 5700 sents, 117138 tokens, 1.79% replaced by <unk>
+[en] Dictionary: 25880 types
+[en] ./dataset/test.en: 5782 sents, 118876 tokens, 1.83% replaced by <unk>
+[ta] Dictionary: 63344 types
+[ta] ./dataset/train.ta: 36350 sents, 584754 tokens, 0.0% replaced by <unk>
+[ta] Dictionary: 63344 types
+[ta] ./dataset/val.ta: 5700 sents, 90146 tokens, 7.84% replaced by <unk>
+[ta] Dictionary: 63344 types
+[ta] ./dataset/test.ta: 5782 sents, 91295 tokens, 7.82% replaced by <unk>
+Wrote preprocessed data to ./data-bin/enta
