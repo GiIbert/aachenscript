@@ -1,5 +1,5 @@
-CUDA_VISIBLE_DEVICES=0 fairseq-train \
-    ~/aachenscript/data-bin/enta \
+CUDA_VISIBLE_DEVICES=1 /rwthfs/rz/cluster/home/xz416747/.local/bin/fairseq-train \
+    ~/translation/data-bin/enta \
     --task translation \
     --batch-size 48 \
     --arch transformer --encoder-layers 5 --decoder-layers 5 --share-decoder-input-output-embed  --encoder-attention-heads 8 --decoder-attention-heads 8 --encoder-embed-dim 512 --decoder-embed-dim 512 \
