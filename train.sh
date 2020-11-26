@@ -8,6 +8,7 @@ CUDA_VISIBLE_DEVICES=1 /rwthfs/rz/cluster/home/xz416747/.local/bin/fairseq-train
     --dropout 0.25 --weight-decay 0.0001 \
     --criterion label_smoothed_cross_entropy --label-smoothing 0.1 \
     --max-tokens 4096 \
+    --tokenizer moses \
     --eval-bleu \
     --eval-bleu-args '{"beam": 5, "max_len_a": 1.2, "max_len_b": 10}' \
     --eval-bleu-detok moses \
