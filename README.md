@@ -18,6 +18,14 @@ To be improved
 
 each one make a branch, and after each time the new processed datasets and training configuration are made, commit them. Then you can git clone them on aachen cluster and submit the task.
 
+## Instructions on using Aachen cluster
+
+1. User Cisco Anyconnect to connect to Aachen VPN. Here you shuold input your VPN password
+2. ssh {YOUR USER NAME!!!}@login18-g-2.hpc.itc.rwth-aachen.de 
+    Input your HPC password
+3. git clone https://github.com/GiIbert/aachenscript
+4. cd aachenscript
+5. sbatch task.sh
 
 
 ## Required libraries
